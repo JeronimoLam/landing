@@ -1,0 +1,101 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+.banner-wrap{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(30,30,30,0.5)), url("progra.jpeg");
+  background-size: cover ;
+  background-position: center;
+  padding: 150px 0 100px 0;
+  text-align: center;
+}
+
+.banner-wrap h1{
+  color: white;
+  font-size: 45px;
+  margin: 0;
+  font-weight: bold;
+}
+.banner-wrap p{
+  color: white;
+  font-size: 21px;
+  opacity: 0.7;
+}
+.banner-wrap button{
+  background-color: #1A4BE3;
+  color: white;
+  text-decoration: none;
+  padding: 16px 48px;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none ;
+  transition: 0.1s;
+}
+.fondo-middle{
+  margin:0;
+  background: linear-gradient(rgba(255,255,255,0.4),rgba(0,0,0,0.8)), url("Fondo-azul.jpg");
+  background-size: cover ;
+  background-position: center;
+
+}
+.global{
+  width: 900px;
+  margin: 0px auto;
+  padding: 60px auto;
+}
+.global h2{
+ text-align: center;
+ margin-top: 5px;
+ font-weight: bold;
+ font-size: 25px;
+ padding-top: 30px;
+ margin-bottom: 10px;
+ font-family: 'Montserrat', sans-serif;
+}
+.tarjetas{
+   display: flex ;
+   flex-wrap:wrap;
+   flex-direction: row;
+   justify-content: space-around;
+
+}
+.card{
+  background-color: white;
+  border-radius: 6px ;
+  padding: 24px;
+  width: 200px;
+  height: 319px;
+  box-shadow: 0 0 16px rgba(0,0,0,0.3);
+  margin: 30px 20px;
+}
+.card img {
+  height: 200px;
+  width: 200px;
+  text-align:center;
+}
+footer{
+   background-color: black;
+   color:white;
+   font-weight: lighter;
+   padding-top: 0;
+   width: 100%;
+   position: fixed;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around ;
+
+}
+
+.redes{
+  margin-top: 7px;
+  align-self:center;
+}
+.space{
+  margin: 0;
+  width: 100%;
+  height: 60px;
+}
